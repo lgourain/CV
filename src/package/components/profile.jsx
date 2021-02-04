@@ -13,7 +13,6 @@ import { styles } from './profile_styles';
 
 import en from '../i18n/en.json';
 import fr from '../i18n/fr.json';
-import tr from '../i18n/tr.json';
 
 import '../styles/lib/slick-carousel/slick-theme.css';
 import '../styles/lib/slick-carousel/slick.css';
@@ -34,13 +33,12 @@ if (!Intl.PluralRules) {
 
 const messages = {
     en,
-    fr,
-    tr
+    fr
 };
 const useStyles = createUseStyles(styles);
 
 const DEFAULT_OPTIONS = Object.freeze({
-    locale: 'en',
+    locale: 'fr',
     customization: {
         imageHeader: {
             url: 'https://cdn.filestackcontent.com/8I2wVnCRTFxypXRYLRsp',
